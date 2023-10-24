@@ -107,22 +107,6 @@ media_cr_não_más = criaturas_não_más['cr'].mean()
 print("\n\n\n\nMédia do CR das criaturas 'más':", media_cr_más)
 print("Média do CR das criaturas 'não más':", media_cr_não_más)
 
-#GRAFICO SE PRECISAR
-"""# Dados das médias de CR para alinhamentos maus e não maus
-medias_cr_alinhamentos = [media_cr_más, media_cr_não_más]
-# Rótulos para as barras
-rótulos_alinhamentos = ['Maus', 'Não Maus']
-# Cores das barras
-cores = ['#FF0000', '#0000FF']
-# Cria o gráfico de barras
-plt.figure(figsize=(8, 6))
-plt.bar(rótulos_alinhamentos, medias_cr_alinhamentos, color=cores)
-plt.title('Média das Classes de Dificuldade (CR) para Alinhamentos Maus e Não Maus')
-plt.xlabel('Alinhamento')
-plt.ylabel('Média de CR')
-# Exibe o gráfico
-plt.show()"""
-
 
 
 
